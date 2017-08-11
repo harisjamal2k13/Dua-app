@@ -1,0 +1,30 @@
+.container{
+    background: cornsilk;
+    width: auto;
+    height: 1200px;
+}
+.wrapper{
+    width: 500px;
+    height: 300px;
+    font-size: 30px;
+    margin: 0 auto;
+    background: darkgoldenrod;
+    position: relative;
+    top: 200px;
+    padding-top: 60px;
+    border-radius: 50px;
+    color: snow;
+}
+.userName{
+    width: 250px;
+    height: 30px;
+    font-size: 25px;
+  
+}
+.signup{
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    position: relative;
+    left: 170px;
+}

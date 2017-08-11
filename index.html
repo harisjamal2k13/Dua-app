@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDMdZU5u0iBFslt66iHPv8KVZoNCpJTVjc",
+    authDomain: "dua-app-a7cf9.firebaseapp.com",
+    databaseURL: "https://dua-app-a7cf9.firebaseio.com",
+  };
+  firebase.initializeApp(config);
+</script>
+</head>
+<body>
+    <div class="container">
+    <div class="wrapper">
+    &nbsp;&nbsp;&nbsp;&nbsp; UserName: <input type="text" id="emailId" class="userName"><br><br>
+    <!--<button onclick="login();">Login </button><br><br>-->
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password: <input type="password" id="password" class="userName">
+<br><br>    <button onclick="signup();" class="signup">Signup</button>
+    
+    <div id="authMessage"></div>
+    </div>
+    </div>
+</body>
+<script src="app.js"></script>
+	<script src="dua.js"></script>
+	<script src="getdua.js"></script>
+</html>
